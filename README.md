@@ -1,2 +1,3 @@
-# ASR-Postprocessor
-An ASR post-processing toolkit for intelligent real-time sentence segmentation, tackling the core latency vs. accuracy trade-off in conversational AI.
+Accurate, real-time sentence segmentation is a critical bottleneck in spoken language understanding, directly impacting applications from machine simultaneous interpretation to interactive robotics. This project tackles the fundamental trade-off between latency and accuracy: segmenting a speech stream too early yields incomplete, nonsensical phrases for downstream models, while waiting too long destroys the real-time user experience.
+
+As an ASR post-processing toolkit, this project provides robust tools to intelligently navigate this challenge. It identifies complete semantic units (sentences or commands) from a streaming, unpunctuated text, providing clean and meaningful input for downstream tasks like machine translation and robot command execution. Ultimately, it serves as a foundational building block for creating more fluid, responsive, and natural human-machine communication.
